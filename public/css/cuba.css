@@ -681,3 +681,18 @@ img,video{
 .button-style {
     background-color: #fff; color: black; padding: 5px; border: 1px cadetblue; border-radius: 5px;
 }
+.header_area {
+    padding-left: 10px;
+    padding-top: 10px;
+    position: relative;
+    z-index: 999;
+}
+.nav-item {
+    color: #718096;
+}
+.nav-item.active {
+    color: #fff;
+}
+.contacts_style_cuba {
+    color: #FF2D20;
+}

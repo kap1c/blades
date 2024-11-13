@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="/css/cuba.css">
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        @yield('content')
-
+    @include('partials.header')
+    @yield('content')
     </body>
 </html>

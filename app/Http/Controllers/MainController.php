@@ -12,4 +12,10 @@ class MainController extends Controller
 
         return view($theme, ['theme' => $theme]);
     }
+
+    public function contacts(Request $request)
+    {
+
+        return view('contacts');
+    }
 }
