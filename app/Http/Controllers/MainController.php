@@ -8,14 +8,18 @@ class MainController extends Controller
 {
     public function index(Request $request)
     {
-        $theme = $request->theme !== null ? $request->theme : 'classic';
-
-        return view($theme, ['theme' => $theme]);
+        return view()->first([
+            $request->theme,
+            'classic'
+        ],['theme' => $request->theme]);
     }
 
     public function contacts(Request $request)
     {
 
-        return view('contacts');
+        return view()->first([
+            'contacts_'.$request->theme,
+            'contacts',
+        ]);
     }
 }

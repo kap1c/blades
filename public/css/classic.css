@@ -688,13 +688,13 @@ img,video{
     z-index: 999;
 }
 .nav-item {
-    color: #718096;
+    color: cyan;
 }
 .nav-item.active {
-    color: #fff;
+    color: blue;
 }
 .contacts_style {
-    color: #fff;
+    color: #000;
 }
 .contacts_style_classic {
     color: #FF2D20;
